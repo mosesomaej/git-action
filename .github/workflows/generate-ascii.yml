@@ -9,7 +9,7 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
             - name: List Repo files
-              run: ls -ltra
+              run: pwd
             - name: Execute Shell Script
               run: |
                   chmod +x ascii-script.sh
